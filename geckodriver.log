@@ -1,0 +1,341 @@
+1644586706887	geckodriver	INFO	Listening on 127.0.0.1:33811
+1644586706890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38655" "-no-remote" "-profile" "/tmp/rust_mozprofileTurfsP"
+1644586710690	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTurfsP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38655/devtools/browser/9b18fda6-f06b-4f30-96c7-f71051503828
+1644586717769	Marionette	INFO	Listening on port 38707
+1644586718312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/SearchService.jsm, line 204: Error: Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+autoOpen@resource:///modules/UrlbarView.jsm:512:20
+_on_mousedown@resource:///modules/UrlbarInput.jsm:2954:21
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+
+JavaScript error: resource:///modules/UrlbarView.jsm, line 2178: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+autoOpen@resource:///modules/UrlbarView.jsm:512:20
+_on_mousedown@resource:///modules/UrlbarInput.jsm:2954:21
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+" {file: "resource://gre/modules/SearchService.jsm" line: 204}]'[JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+autoOpen@resource:///modules/UrlbarView.jsm:512:20
+_on_mousedown@resource:///modules/UrlbarInput.jsm:2954:21
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+" {file: "resource://gre/modules/SearchService.jsm" line: 204}]' when calling method: [nsISearchService::defaultEngine]
+JavaScript error: resource://gre/modules/SearchService.jsm, line 204: Error: Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+
+JavaScript error: resource:///modules/UrlbarView.jsm, line 2178: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+" {file: "resource://gre/modules/SearchService.jsm" line: 204}]'[JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+" {file: "resource://gre/modules/SearchService.jsm" line: 204}]' when calling method: [nsISearchService::defaultEngine]
+JavaScript error: resource://gre/modules/SearchService.jsm, line 204: Error: Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+
+JavaScript error: resource:///modules/UrlbarView.jsm, line 2178: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+" {file: "resource://gre/modules/SearchService.jsm" line: 204}]'[JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+" {file: "resource://gre/modules/SearchService.jsm" line: 204}]' when calling method: [nsISearchService::defaultEngine]
+JavaScript error: resource://gre/modules/SearchService.jsm, line 204: Error: Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+
+JavaScript error: resource:///modules/UrlbarView.jsm, line 2178: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+" {file: "resource://gre/modules/SearchService.jsm" line: 204}]'[JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+" {file: "resource://gre/modules/SearchService.jsm" line: 204}]' when calling method: [nsISearchService::defaultEngine]
+JavaScript error: resource://gre/modules/SearchService.jsm, line 204: Error: Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+
+JavaScript error: resource:///modules/UrlbarView.jsm, line 2178: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+" {file: "resource://gre/modules/SearchService.jsm" line: 204}]'[JavaScript Error: "Something tried to use the search service before it's been properly intialized. Please examine the stack trace to figure out what and where to fix it:
+_ensureInitialized@resource://gre/modules/SearchService.jsm:204:15
+_getEngineDefault@resource://gre/modules/SearchService.jsm:2163:10
+get defaultEngine@resource://gre/modules/SearchService.jsm:2295:17
+_cacheL10nStrings@resource:///modules/UrlbarView.jsm:2178:11
+onQueryStarted@resource:///modules/UrlbarView.jsm:583:10
+notify@resource:///modules/UrlbarController.jsm:652:25
+startQuery@resource:///modules/UrlbarController.jsm:133:10
+startQuery@resource:///modules/UrlbarInput.jsm:1355:52
+_on_input@resource:///modules/UrlbarInput.jsm:3054:10
+handleEvent@resource:///modules/UrlbarInput.jsm:425:23
+" {file: "resource://gre/modules/SearchService.jsm" line: 204}]' when calling method: [nsISearchService::defaultEngine]
+1644586736033	Marionette	INFO	Stopped listening on port 38707
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1644586803291	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1644586810921	geckodriver	INFO	Listening on 127.0.0.1:53737
+1644586811435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53333" "-no-remote" "-profile" "/tmp/rust_mozprofileR3K7q4"
+1644586814052	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileR3K7q4/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:53333/devtools/browser/54657a47-3655-4fd7-a745-ed5204d77ea5
+1644586820416	Marionette	INFO	Listening on port 45915
+1644586820549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+JavaScript error: https://quantcast.mgr.consensu.org/tcfv2/39/cmp2ui-en.js, line 2: TypeError: document.body is null
+1644590190777	Marionette	INFO	Stopped listening on port 45915
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1655983722005	geckodriver	INFO	Listening on 127.0.0.1:33573
+1655983722020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57663" "-no-remote" "-profile" "/tmp/rust_mozprofile8Zqzou"
+1655983725718	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57663
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8Zqzou/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655983732304	Marionette	INFO	Listening on port 44455
+DevTools listening on ws://localhost:57663/devtools/browser/19828253-668d-4820-9db1-4543f4664566
+1655983732496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655983738345	Marionette	INFO	Stopped listening on port 44455
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+1655998401058	geckodriver	INFO	Listening on 127.0.0.1:53605
+1655998401061	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46331" "-no-remote" "-profile" "/tmp/rust_mozprofile4AhOGY"
+1655998403814	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:46331
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4AhOGY/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655998411805	Marionette	INFO	Listening on port 35309
+DevTools listening on ws://localhost:46331/devtools/browser/61c73a22-1c28-4f96-ae7b-8698ad212f27
+1655998411951	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655998724645	geckodriver	INFO	Listening on 127.0.0.1:55269
+1655998724648	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55327" "-no-remote" "-profile" "/tmp/rust_mozprofilezdXU5k"
+1655998727555	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55327
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezdXU5k/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655998736526	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 27: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 186: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://activity-stream/lib/PlacesFeed.jsm, line 178: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.addObserver]
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 138: AbortError: IOUtils.profileBeforeChange getter: IOUtils: profileBeforeChange phase has already finished
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1655998894685	geckodriver	INFO	Listening on 127.0.0.1:47049
+1655998894692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55031" "-no-remote" "-profile" "/tmp/rust_mozprofileqtOvkb"
+1655998897231	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55031
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqtOvkb/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1655998902041	Marionette	INFO	Listening on port 43445
+DevTools listening on ws://localhost:55031/devtools/browser/9f7026ba-d982-4134-8a9c-43facb6aedf3
+1655998902140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cmp.quantcast.com/tcfv2/42/cmp2ui-en.js, line 2: TypeError: document.body is null
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655999090882	Marionette	INFO	Stopped listening on port 35309
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1655999091707	Marionette	INFO	Stopped listening on port 43445
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1656001904259	geckodriver	INFO	Listening on 127.0.0.1:59833
+1656001904263	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41275" "-no-remote" "-profile" "/tmp/rust_mozprofilex02keN"
+1656001906864	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:41275
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilex02keN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656001913061	Marionette	INFO	Listening on port 39831
+DevTools listening on ws://localhost:41275/devtools/browser/73d1782d-7613-4fc3-8777-39148c11e187
+1656001913166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cmp.quantcast.com/tcfv2/42/cmp2ui-en.js, line 2: TypeError: document.body is null
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656002111178	Marionette	INFO	Stopped listening on port 39831
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1656002277620	geckodriver	INFO	Listening on 127.0.0.1:53141
+1656002277625	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57733" "-no-remote" "-profile" "/tmp/rust_mozprofileTh92K7"
+1656002280171	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57733
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTh92K7/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+1656002286031	Marionette	INFO	Listening on port 41549
+DevTools listening on ws://localhost:57733/devtools/browser/69fe7084-6000-498e-ac94-839a35d94c68
+1656002286074	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 1969\"  data: no]"
+1656002600855	Marionette	INFO	Stopped listening on port 41549
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
